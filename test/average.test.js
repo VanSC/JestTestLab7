@@ -10,4 +10,7 @@ describe('average', () =>{
     test('of one value is the value itself', () => {
         expect(average([2,2])).toBe(2)
     })
+    test('of one value is the value itself', () => {
+        expect(average([])).toBe(0)
+    })
 })

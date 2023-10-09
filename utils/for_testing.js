@@ -9,6 +9,8 @@ const palindrome = (string) => {
 
 const average = array => {
     let sum = 0;
+    //añade esta linea
+    if (array.length === 0) return 0;
     array.forEach(num => { sum += num});
     return sum / array.length;
 }
