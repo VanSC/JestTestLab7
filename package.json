@@ -1,0 +1,20 @@
+{
+  "name": "testinglab",
+  "version": "0.0.1",
+  "description": "es un lab de pruebas en node js usando jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": {
+    "name": "Vanessa Choque",
+    "email": "vanessa.choque@tecsup.edu.pe"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
